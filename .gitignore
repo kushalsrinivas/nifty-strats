@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Output artifacts (regenerated on demand)
+output/*.html
+output/*.csv
+output/*.json
+output/*.pt
+output/*.csv.gz
+output/raw_option_chain/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
